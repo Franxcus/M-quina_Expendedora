@@ -2,6 +2,6 @@
 Programación en VHDL de una máquina expendedora mediante una máquina de estados.
 
 # PARTICIPANTES
-Joan Bellido Ines\n
-Francisco Martín Cuscurita\n
-Jimena López Maldonado\n
+Joan Bellido Ines
+Francisco Martín Cuscurita
+Jimena López Maldonado
