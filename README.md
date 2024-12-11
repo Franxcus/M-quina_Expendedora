@@ -3,5 +3,7 @@ Programación en VHDL de una máquina expendedora mediante una máquina de estad
 
 # PARTICIPANTES
 Joan Bellido Ines
+
 Francisco Martín Cuscurita
+
 Jimena López Maldonado
