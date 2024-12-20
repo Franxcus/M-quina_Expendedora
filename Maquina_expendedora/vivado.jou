@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Dec 20 17:30:26 2024
-# Process ID: 19872
+# Start of session at: Fri Dec 20 17:58:15 2024
+# Process ID: 15140
 # Current directory: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20932 C:\Users\User\Documents\GitHub\M-quina_Expendedora\Maquina_Expendedora\Maquina_Expendedora.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6240 C:\Users\User\Documents\GitHub\M-quina_Expendedora\Maquina_Expendedora\Maquina_Expendedora.xpr
 # Log file: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora/vivado.log
 # Journal file: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora\vivado.jou
 # Running On        :LAPTOP-CMAINUUU
@@ -19,6 +19,6 @@
 # Host memory       :8262 MB
 # Swap memory       :5368 MB
 # Total Virtual     :13631 MB
-# Available Virtual :5193 MB
+# Available Virtual :3484 MB
 #-----------------------------------------------------------
 start_gui
