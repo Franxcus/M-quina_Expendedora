@@ -1,32 +1,24 @@
 #-----------------------------------------------------------
-# Vivado v2024.2 (64-bit)
-# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
-# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
-# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Wed Dec 18 12:44:46 2024
-# Process ID         : 25156
-# Current directory  : C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/Maquina_expendedora
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent40904 C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\Maquina_expendedora\Maquina_Expendedora.xpr
-# Log file           : C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/Maquina_expendedora/vivado.log
-# Journal file       : C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/Maquina_expendedora\vivado.jou
-# Running On         : LAPTOP-EOQDQ6OP
-# Platform           : Windows Server 2016 or Windows 10
-# Operating System   : 22631
-# Processor Detail   : Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
-# CPU Frequency      : 2592 MHz
-# CPU Physical cores : 6
-# CPU Logical cores  : 12
-# Host memory        : 16940 MB
-# Swap memory        : 9126 MB
-# Total Virtual      : 26067 MB
-# Available Virtual  : 5368 MB
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Dec 20 17:30:26 2024
+# Process ID: 19872
+# Current directory: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20932 C:\Users\User\Documents\GitHub\M-quina_Expendedora\Maquina_Expendedora\Maquina_Expendedora.xpr
+# Log file: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora/vivado.log
+# Journal file: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora\vivado.jou
+# Running On        :LAPTOP-CMAINUUU
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+# CPU Frequency     :1498 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8262 MB
+# Swap memory       :5368 MB
+# Total Virtual     :13631 MB
+# Available Virtual :5193 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/jimen/Maquina_Expendedora/Maquina_expendedora/Maquina_expendedora.xpr
-update_compile_order -fileset sources_1
-file mkdir C:/Users/jimen/Maquina_Expendedora/Maquina_expendedora/Maquina_expendedora.srcs/sim_1/new
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open C:/Users/jimen/Maquina_Expendedora/Maquina_expendedora/Maquina_expendedora.srcs/sim_1/new/tb.vhd w ]
-add_files -fileset sim_1 C:/Users/jimen/Maquina_Expendedora/Maquina_expendedora/Maquina_expendedora.srcs/sim_1/new/tb.vhd
-update_compile_order -fileset sim_1
-launch_simulation

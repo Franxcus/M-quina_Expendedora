@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Dec 20 17:30:26 2024
-# Process ID: 19872
+# Start of session at: Fri Dec 20 17:20:33 2024
+# Process ID: 21472
 # Current directory: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20932 C:\Users\User\Documents\GitHub\M-quina_Expendedora\Maquina_Expendedora\Maquina_Expendedora.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20468 C:\Users\User\Documents\GitHub\M-quina_Expendedora\Maquina_Expendedora\Maquina_Expendedora.xpr
 # Log file: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora/vivado.log
 # Journal file: C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora\vivado.jou
 # Running On        :LAPTOP-CMAINUUU
@@ -19,7 +19,7 @@
 # Host memory       :8262 MB
 # Swap memory       :5368 MB
 # Total Virtual     :13631 MB
-# Available Virtual :5193 MB
+# Available Virtual :4435 MB
 #-----------------------------------------------------------
 start_gui
 WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
@@ -124,4 +124,4 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
 INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Dec 20 17:31:14 2024...
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 20 17:30:22 2024...
