@@ -5,7 +5,11 @@
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <Project Product="Vivado" Version="7" Minor="68" Path="C:/Users/jimen/Maquina_Expendedora/Maquina_expendedora/Maquina_expendedora.xpr">
+=======
+<Project Product="Vivado" Version="7" Minor="67" Path="C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora/Maquina_Expendedora.xpr">
+>>>>>>> Stashed changes
 =======
 <Project Product="Vivado" Version="7" Minor="67" Path="C:/Users/User/Documents/GitHub/M-quina_Expendedora/Maquina_Expendedora/Maquina_Expendedora.xpr">
 >>>>>>> Stashed changes
@@ -121,6 +125,13 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/SYNCHRNZER.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/DISPLAY_CONTROL.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
