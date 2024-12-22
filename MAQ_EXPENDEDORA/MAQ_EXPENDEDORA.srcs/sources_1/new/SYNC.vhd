@@ -1,4 +1,3 @@
-
 ----------------------------------------------------------------------------------
 -- Company: 
 -- Engineer: 
@@ -34,17 +33,17 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity SYNCHRNZR is
     Generic(
-        NUM_TIPO_REFRESCOS: POSITIVE;
+        NUM_REFRESCOS: POSITIVE;
         NUM_MONEDAS: POSITIVE      
     );
     Port(
         CLK : in STD_LOGIC;
         AS_MONEDAS: in STD_LOGIC_VECTOR (NUM_MONEDAS - 1 downto 0); 
         AS_PAGAR: in STD_LOGIC;
-        AS_TIPO_REFRESCO: in STD_LOGIC_VECTOR (NUM_TIPO_REFRESCOS - 1 downto 0);
+        AS_TIPO_REFRESCO: in STD_LOGIC_VECTOR (NUM_REFRESCOS - 1 downto 0);
         S_MONEDAS: out STD_LOGIC_VECTOR (NUM_MONEDAS - 1 downto 0);
         S_PAGAR: out STD_LOGIC;
-        S_TIPO_REFRESCO: out STD_LOGIC_VECTOR (NUM_TIPO_REFRESCOS - 1 downto 0)
+        S_TIPO_REFRESCO: out STD_LOGIC_VECTOR (NUM_REFRESCOS - 1 downto 0)
      );
 end SYNCHRNZR;
 
@@ -52,11 +51,11 @@ architecture Behavioral of SYNCHRNZR is
 
     SIGNAL REG_1_MONEDAS: STD_LOGIC_VECTOR(NUM_MONEDAS - 1 downto 0);
     SIGNAL REG_1_PAGAR: STD_LOGIC;
-    SIGNAL REG_1_TIPO: STD_LOGIC_VECTOR (NUM_TIPO_REFRESCOS - 1 downto 0);
+    SIGNAL REG_1_TIPO: STD_LOGIC_VECTOR (NUM_REFRESCOS - 1 downto 0);
 
     SIGNAL REG_2_MONEDAS: STD_LOGIC_VECTOR(NUM_MONEDAS - 1 downto 0);
     SIGNAL REG_2_PAGAR: STD_LOGIC;
-    SIGNAL REG_2_TIPO: STD_LOGIC_VECTOR (NUM_TIPO_REFRESCOS - 1 downto 0);
+    SIGNAL REG_2_TIPO: STD_LOGIC_VECTOR (NUM_REFRESCOS - 1 downto 0);
     
 begin
 

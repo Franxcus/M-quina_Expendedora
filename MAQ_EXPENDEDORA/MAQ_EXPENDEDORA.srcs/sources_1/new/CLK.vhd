@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 13.12.2024 17:43:01
+-- Create Date: 21.12.2023 23:39:18
 -- Design Name: 
 -- Module Name: PRESCALER - Behavioral
 -- Project Name: 
@@ -36,8 +36,10 @@ entity PRESCALER is
 generic(
     PRESCALER_DIV: POSITIVE      
 );
-    Port ( CLK : in STD_LOGIC;
-           CLK_OUT : out STD_LOGIC);
+Port(
+    CLK : in STD_LOGIC;
+    CLK_OUT : out STD_LOGIC
+);
 end PRESCALER;
 
 architecture Behavioral of PRESCALER is
