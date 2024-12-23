@@ -5,11 +5,11 @@ SW Build: 5239630 on Fri Nov 08 22:35:27 MST 2024
 IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
 IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
 
-Process ID (PID): 31544
+Process ID (PID): 17424
 License: Customer
 Mode: GUI Mode
 
-Current time: 	Sun Dec 22 13:10:23 CET 2024
+Current time: 	Mon Dec 23 15:04:08 CET 2024
 Time zone: 	Central European Standard Time (Europe/Madrid)
 
 OS: Windows 11
@@ -36,7 +36,7 @@ Java maximum memory (-Xmx):	 3 GB
 
 User name: 	jimen
 User home directory: C:/Users/jimen
-User working directory: C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA
+User working directory: C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA
 User country: 	ES
 User language: 	es
 User locale: 	es_ES
@@ -50,16 +50,16 @@ Vivado preferences file: C:/Users/jimen/AppData/Roaming/Xilinx/Vivado/2024.2/viv
 Vivado preferences directory: C:/Users/jimen/AppData/Roaming/Xilinx/Vivado/2024.2/
 Vivado layouts directory: C:/Users/jimen/AppData/Roaming/Xilinx/Vivado/2024.2/data/layouts
 PlanAhead jar file: 	C:/Xilinx/Vivado/2024.2/lib/classes/planAhead.jar
-Vivado log file: 	C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA/vivado.log
-Vivado journal file: 	C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA/vivado.jou
-Engine tmp dir: 	C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA/.Xil/Vivado-31544-LAPTOP-EOQDQ6OP
+Vivado log file: 	C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA/vivado.log
+Vivado journal file: 	C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA/vivado.jou
+Engine tmp dir: 	C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA/.Xil/Vivado-17424-LAPTOP-EOQDQ6OP
 Non-Default Parameters:	[]
 
 Xilinx & AMD Environment Variables
 --------------------------------------------------------------------------------------------
 AGSDESKTOPJAVA: C:\Program Files (x86)\ArcGIS\Desktop10.8\
 RDI_APPROOT: C:/Xilinx/Vivado/2024.2
-RDI_ARGS:  -gui_launcher_event rodinguilauncherevent31488 "C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\MAQ_EXPENDEDORA\MAQ_EXPENDEDORA.xpr"
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent24816 "C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\MAQUINA_EXPENDEDORA\MAQUINA_EXPENDEDORA.xpr"
 RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
 RDI_BASEROOT: C:/Xilinx/Vivado
 RDI_BINDIR: C:/Xilinx/Vivado/2024.2/bin
@@ -87,7 +87,7 @@ RDI_PYTHON3_VERSION: 3.8.3
 RDI_PYTHONHOME: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3
 RDI_PYTHONPATH: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib\site-packages
 RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib
-RDI_SESSION_INFO: C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\MAQ_EXPENDEDORA:LAPTOP-EOQDQ6OP-22-12-2024_13-10-05,80
+RDI_SESSION_INFO: C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\MAQUINA_EXPENDEDORA:LAPTOP-EOQDQ6OP-23-12-2024_15-03-45,18
 RDI_SHARED_DATA: C:/Xilinx/SharedData/2024.2/data
 RDI_TPS_ROOT: C:/Xilinx/Vivado/2024.2/tps/win64
 RDI_USE_JDK21: True
@@ -100,12 +100,12 @@ XILINX_SDK: C:/Xilinx/Vitis/2024.2
 XILINX_VITIS: C:/Xilinx/Vitis/2024.2
 XILINX_VIVADO: C:/Xilinx/Vivado/2024.2
 _RDI_BINROOT: C:\Xilinx\Vivado\2024.2\bin
-_RDI_CWD: C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\MAQ_EXPENDEDORA
+_RDI_CWD: C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\MAQUINA_EXPENDEDORA
 
 
 GUI allocated memory:	512 MB
 GUI max memory:		4,072 MB
-Engine allocated memory: 836 MB
+Engine allocated memory: 783 MB
 
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -115,10 +115,10 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // TclEventType: START_GUI
 // Tcl Message: start_gui 
 // TclEventType: PROJECT_OPEN_DIALOG
-// Opening Vivado Project: C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\MAQ_EXPENDEDORA\MAQ_EXPENDEDORA.xpr. Version: Vivado v2024.2 
+// Opening Vivado Project: C:\Users\jimen\OneDrive\Documents\GitHub\M-quina_Expendedora\MAQUINA_EXPENDEDORA\MAQUINA_EXPENDEDORA.xpr. Version: Vivado v2024.2 
 // TclEventType: DEBUG_PROBE_SET_CHANGE
 // TclEventType: FLOW_ADDED
-// Tcl Message: open_project C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.xpr 
+// Tcl Message: open_project C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA/MAQUINA_EXPENDEDORA.xpr 
 // TclEventType: MSGMGR_MOVEMSG
 // TclEventType: FILE_SET_CHANGE
 // TclEventType: FILE_SET_NEW
@@ -137,16 +137,19 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // TclEventType: PROJECT_DASHBOARD_GADGET_NEW
 // TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
 // TclEventType: PROJECT_NEW
-// [GUI Memory]: 120 MB (+123607kb) [00:00:11]
-// [Engine Memory]: 813 MB (+701028kb) [00:00:12]
-// WARNING: HEventQueue.dispatchEvent() is taking  2334 ms.
-// Tcl Message: open_project C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.xpr 
-// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.gen/sources_1'. 
+// Tcl Message: open_project C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA/MAQUINA_EXPENDEDORA.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA/MAQUINA_EXPENDEDORA.gen/sources_1'. 
 // Tcl Message: Scanning sources... Finished scanning sources 
-// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'. 
-// HMemoryUtils.trashcanNow. Engine heap size: 836 MB. GUI used memory: 76 MB. Current time: 12/22/24, 1:10:24 PM CET
-// Project name: MAQ_EXPENDEDORA; location: C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA; part: xc7a100tcsg324-1
-// Tcl Message: open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1139.852 ; gain = 69.227 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 120 MB (+122895kb) [00:00:16]
+// [Engine Memory]: 816 MB (+703965kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  2799 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 841 MB. GUI used memory: 75 MB. Current time: 12/23/24, 3:04:11 PM CET
+// Project name: MAQUINA_EXPENDEDORA; location: C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1145.352 ; gain = 89.590 
 dismissDialog("Open Project"); // bh (Open Project Progress)
-// [GUI Memory]: 154 MB (+28730kb) [00:00:16]
 // Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 128 MB (+2262kb) [00:00:58]
+// [GUI Memory]: 146 MB (+12960kb) [00:02:55]

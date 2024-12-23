@@ -25,3 +25,4 @@ start_gui
 open_project C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.xpr
 update_compile_order -fileset sources_1
 1
+save_project_as MAQUINA_EXPENDEDORA C:/Users/jimen/OneDrive/Documents/GitHub/M-quina_Expendedora/MAQUINA_EXPENDEDORA -force
