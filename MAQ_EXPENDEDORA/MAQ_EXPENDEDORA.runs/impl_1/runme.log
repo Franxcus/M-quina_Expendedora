@@ -1,0 +1,340 @@
+
+*** Running vivado
+    with args -log MAQ_EXPENDEDORA.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source MAQ_EXPENDEDORA.tcl -notrace
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Thu Jan 16 17:41:34 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source MAQ_EXPENDEDORA.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 487.137 ; gain = 200.094
+Command: link_design -top MAQ_EXPENDEDORA -part xc7a12ticsg325-1L
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+INFO: [Device 21-9227] Part: xc7a12ticsg325-1L does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 879.465 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc]
+CRITICAL WARNING: [Vivado 12-1815] Setting property 'IOSTANDARD' is not allowed for GT terminals. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L16' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'M13' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V10' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'LED_AUX5'. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_RESET'. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-69] Command failed: 'V15' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:45]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T10' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:60]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R10' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:61]
+CRITICAL WARNING: [Common 17-69] Command failed: 'K13' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:63]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T11' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:65]
+CRITICAL WARNING: [Common 17-69] Command failed: 'H15' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J17' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T9' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U13' is not a valid site or package pin name. [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc:77]
+Finished Parsing XDC File [C:/Users/Frank/OneDrive/Escritorio/TRABAJO/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 993.488 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LDCP => LDCP (GND, LDCE, LUT3(x2), VCC): 2 instances
+
+8 Infos, 2 Warnings, 15 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 993.488 ; gain = 506.352
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a12ti'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1022.203 ; gain = 28.715
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1cbd9e730
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1562.137 ; gain = 539.934
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 1cbd9e730
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 1cbd9e730
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Phase 1 Initialization | Checksum: 1cbd9e730
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 1cbd9e730
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 1cbd9e730
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 1cbd9e730
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 1 inverters resulting in an inversion of 5 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1e39a82c6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Retarget | Checksum: 1e39a82c6
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 1 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 1e39a82c6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Constant propagation | Checksum: 1e39a82c6
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 1697cf062
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Sweep | Checksum: 1697cf062
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 1 cells
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 1697cf062
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 1937.953 ; gain = 0.000
+BUFG optimization | Checksum: 1697cf062
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1697cf062
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Shift Register Optimization | Checksum: 1697cf062
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1697cf062
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.114 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Post Processing Netlist | Checksum: 1697cf062
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: fa7e75f9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.120 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: fa7e75f9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Phase 9 Finalization | Checksum: fa7e75f9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               1  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               1  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: fa7e75f9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.123 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: fa7e75f9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: fa7e75f9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: fa7e75f9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1937.953 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+27 Infos, 2 Warnings, 15 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1937.953 ; gain = 944.465
+INFO: [Vivado 12-24828] Executing command : report_drc -file MAQ_EXPENDEDORA_drc_opted.rpt -pb MAQ_EXPENDEDORA_drc_opted.pb -rpx MAQ_EXPENDEDORA_drc_opted.rpx
+Command: report_drc -file MAQ_EXPENDEDORA_drc_opted.rpt -pb MAQ_EXPENDEDORA_drc_opted.pb -rpx MAQ_EXPENDEDORA_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Frank/OneDrive/Escritorio/TRABAJO/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.runs/impl_1/MAQ_EXPENDEDORA_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.096 . Memory (MB): peak = 1937.953 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Frank/OneDrive/Escritorio/TRABAJO/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.runs/impl_1/MAQ_EXPENDEDORA_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a12ti'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: ec8302a5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1937.953 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (12) is greater than number of available pins (0).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 9 sites.
+	Term: DIGCTRL[0]
+	Term: DIGCTRL[1]
+	Term: DIGCTRL[3]
+	Term: DIGCTRL[8]
+	Term: SEGMENTOS[1]
+	Term: SEGMENTOS[3]
+	Term: SEGMENTOS[5]
+	Term: SEGMENTOS[6]
+	Term: ESTADOS[0]
+
+
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 0 sites available on device, but needs 3 sites.
+	Term: MONEDAS[1]
+	Term: MONEDAS[2]
+	Term: PAGAR
+
+
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 14 |    50 |    15 | LVCMOS33(15)                                                           |                                          |        |  +3.30 |    YES |     |
+| 15 |    50 |     2 | LVCMOS33(2)                                                            |                                          |        |  +3.30 |    YES |     |
+| 34 |    50 |     1 | LVCMOS33(1)                                                            |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   150 |    18 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 14     | DIGCTRL[2]           | LVCMOS33        | IOB_X0Y44            | J18                  |                      |
+|        | DIGCTRL[4]           | LVCMOS33        | IOB_X0Y40            | J14                  |                      |
+|        | DIGCTRL[5]           | LVCMOS33        | IOB_X0Y26            | P14                  |                      |
+|        | DIGCTRL[6]           | LVCMOS33        | IOB_X0Y24            | T14                  |                      |
+|        | ERROR                | LVCMOS33        | IOB_X0Y39            | K15                  |                      |
+|        | ESTADOS[1]           | LVCMOS33        | IOB_X0Y9             | V14                  |                      |
+|        | ESTADOS[2]           | LVCMOS33        | IOB_X0Y8             | V12                  |                      |
+|        | ESTADOS[3]           | LVCMOS33        | IOB_X0Y3             | V11                  |                      |
+|        | MONEDAS[0]           | LVCMOS33        | IOB_X0Y46            | J15                  |                      |
+|        | MONEDAS[3]           | LVCMOS33        | IOB_X0Y25            | R15                  |                      |
+|        | SEGMENTOS[0]         | LVCMOS33        | IOB_X0Y41            | L18                  |                      |
+|        | SEGMENTOS[2]         | LVCMOS33        | IOB_X0Y28            | P15                  |                      |
+|        | SEGMENTOS[4]         | LVCMOS33        | IOB_X0Y48            | K16                  |                      |
+|        | TIPO_REFRESCO[0]     | LVCMOS33        | IOB_X0Y5             | U12                  |                      |
+|        | TIPO_REFRESCO[1]     | LVCMOS33        | IOB_X0Y4             | U11                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 15     | REFRESCO_OUT         | LVCMOS33        | IOB_X0Y54            | H17                  |                      |
+|        | RESET                | LVCMOS33        | IOB_X0Y87            | C12                  | *                    |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | DIGCTRL[7]           | LVCMOS33        | IOB_X1Y44            | K2                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus DIGCTRL are not locked:  'DIGCTRL[8]'  'DIGCTRL[3]'  'DIGCTRL[1]'  'DIGCTRL[0]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus ESTADOS are not locked:  'ESTADOS[0]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus MONEDAS are not locked:  'MONEDAS[2]'  'MONEDAS[1]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus SEGMENTOS are not locked:  'SEGMENTOS[6]'  'SEGMENTOS[5]'  'SEGMENTOS[3]'  'SEGMENTOS[1]' 
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1968b91b2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.298 . Memory (MB): peak = 1937.953 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1968b91b2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.299 . Memory (MB): peak = 1937.953 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 1968b91b2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.300 . Memory (MB): peak = 1937.953 ; gain = 0.000
+45 Infos, 6 Warnings, 15 Critical Warnings and 4 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 16 17:42:14 2025...

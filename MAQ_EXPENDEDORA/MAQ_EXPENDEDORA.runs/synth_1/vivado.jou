@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Jan 16 17:40:22 2025
+# Process ID: 9800
+# Current directory: C:/Users/Frank/OneDrive/Escritorio/TRABAJO/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.runs/synth_1
+# Command line: vivado.exe -log MAQ_EXPENDEDORA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MAQ_EXPENDEDORA.tcl
+# Log file: C:/Users/Frank/OneDrive/Escritorio/TRABAJO/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.runs/synth_1/MAQ_EXPENDEDORA.vds
+# Journal file: C:/Users/Frank/OneDrive/Escritorio/TRABAJO/MAQ_EXPENDEDORA/MAQ_EXPENDEDORA.runs/synth_1\vivado.jou
+# Running On        :000LTFrank02
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+# CPU Frequency     :1498 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16848 MB
+# Swap memory       :2550 MB
+# Total Virtual     :19398 MB
+# Available Virtual :11170 MB
+#-----------------------------------------------------------
+source MAQ_EXPENDEDORA.tcl -notrace
