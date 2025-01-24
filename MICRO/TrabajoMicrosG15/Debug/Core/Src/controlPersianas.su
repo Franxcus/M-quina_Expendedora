@@ -1,0 +1,3 @@
+../Core/Src/controlPersianas.c:6:6:subirPersianas	8	static
+../Core/Src/controlPersianas.c:15:6:bajarPersianas	8	static
+../Core/Src/controlPersianas.c:24:6:pararPersianas	8	static

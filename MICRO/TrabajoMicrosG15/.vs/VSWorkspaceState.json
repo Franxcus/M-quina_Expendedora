@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Core",
+    "\\Core\\Inc",
+    "\\Core\\Src",
+    "\\Drivers\\CMSIS",
+    "\\Drivers\\CMSIS\\Device",
+    "\\Drivers\\CMSIS\\Device\\ST",
+    "\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx",
+    "\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
+    "\\Drivers\\STM32F4xx_HAL_Driver",
+    "\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
+    "\\Drivers\\STM32F4xx_HAL_Driver\\Src"
+  ],
+  "SelectedNode": "\\Core\\Src\\controlPersianas.c",
+  "PreviewInSolutionExplorer": false
+}
